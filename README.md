@@ -71,3 +71,8 @@ This Excel dashboard enables stakeholders to visualize and analyze sales data ef
 
 ### Dataset Source
 [Maven Analytics](https://mavenanalytics.io/data-playground?pageSize=all): Coffee Shop Sales
+
+
+
+### Snapshot of the Dashboard
+![Dashboard_Snapshot](https://github.com/bhavdipzala/Coffee_Shop_Sales_Analysis_Excel_Dashboard/blob/main/dashboard_snapshot.jpg)
