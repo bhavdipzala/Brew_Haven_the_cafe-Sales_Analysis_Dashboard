@@ -1,7 +1,7 @@
 # Coffee Shop Sales Analysis Excel Dashboard
 
 ### Overview
-The project involves creating an interactive Excel dashboard to analyze and gain insights from a dataset of coffee shop sales transactions. The dataset consists of around 150,000 sales transactions recorded over a period of six months, from January 1, 2023, to June 30, 2023. The data was obtained from the Maven Analytics site and can be accessed [here](###dataset-source).
+The project involves creating an interactive Excel dashboard to analyze and gain insights from a dataset of coffee shop sales transactions. The dataset consists of around 150,000 sales transactions recorded over a period of six months, from January 1, 2023, to June 30, 2023. The data was obtained from the Maven Analytics site and can be accessed [here](#dataset-source).
 
 
 ### Dataset Description
