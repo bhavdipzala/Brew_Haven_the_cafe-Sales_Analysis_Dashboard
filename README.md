@@ -66,4 +66,4 @@ The interactive dashboard includes the following components:
 ### Final Snapshot of the Dashboard
 ![Dashboard_Snapshot](https://github.com/bhavdipzala/Coffee_Shop_Sales_Analysis_Excel_Dashboard/blob/main/dashboard_snapshot.jpg)
 
-This Excel dashboard enables stakeholders to visualize and analyze sales data effectively, provides a clear overview of sales trends, identifies key performance indicators, and supports informed decision-making to optimize sales strategies and improve overall business performance.
+This Excel dashboard **enables stakeholders** to visualize and analyze sales data effectively, provides a clear overview of sales trends, identifies key performance indicators, and supports informed decision-making to optimize sales strategies and improve overall business performance.
