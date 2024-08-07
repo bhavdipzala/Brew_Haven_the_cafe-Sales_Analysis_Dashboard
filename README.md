@@ -1,12 +1,14 @@
 # Coffee Shop Sales Analysis Excel Dashboard
 
 ### Overview
-The project involves creating an interactive Excel dashboard to analyze and gain insights from a dataset of coffee shop sales transactions. The dataset consists of around 150,000 sales transactions recorded over a period of six months, from January 1, 2023, to June 30, 2023. The data was obtained from the Maven Analytics site and can be accessed [here](#dataset-source).
+The project involves creating an interactive Excel dashboard to analyze and gain insights from a dataset containing coffee shop sales transactions. The dataset, which consists of around 150,000 sales transactions recorded over a period of six months, from January 1, 2023, to June 30, 2023, was obtained from the [Maven Analytics](https://mavenanalytics.io/data-playground?pageSize=all) site and can be accessed from the `Dataset.csv` file of this Repository.
+
+The main objective of this project is to analyze retail sales data to derive actionable insights that will enhance the performance of the coffee shop.
 
 
 ### Dataset Description
 The raw dataset includes the following columns:
-- `transaction_id`
+- `transaction_id:` Unique identifier for each transaction
 - `transaction_date`
 - `transaction_time`
 - `transaction_qty`
@@ -61,18 +63,7 @@ The interactive dashboard includes the following components:
   - Month name (for filtering results by month)
 
 
-### Objective
-The main objective of this project is to analyze retail sales data to derive actionable insights that will enhance the performance of the coffee shop.
-
-
-### Conclusion
-This Excel dashboard enables stakeholders to visualize and analyze sales data effectively. It provides a clear overview of sales trends, identifies key performance indicators, and supports informed decision-making to optimize sales strategies and improve overall business performance.
-
-
-### Dataset Source
-[Maven Analytics](https://mavenanalytics.io/data-playground?pageSize=all): Coffee Shop Sales
-
-
-
-### Snapshot of the Dashboard
+### Final Snapshot of the Dashboard
 ![Dashboard_Snapshot](https://github.com/bhavdipzala/Coffee_Shop_Sales_Analysis_Excel_Dashboard/blob/main/dashboard_snapshot.jpg)
+
+This Excel dashboard enables stakeholders to visualize and analyze sales data effectively, provides a clear overview of sales trends, identifies key performance indicators, and supports informed decision-making to optimize sales strategies and improve overall business performance.
