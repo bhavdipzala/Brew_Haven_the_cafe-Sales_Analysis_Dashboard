@@ -1,9 +1,9 @@
 # Coffee Shop Sales Analysis Excel Dashboard
 
-### Overview
+### Overview and Objective
 The project involves creating an interactive Excel dashboard to analyse and gain insights from a dataset containing coffee shop sales transactions. The dataset, which consists of around 150,000 sales transactions recorded over a period of six months, from January 1, 2023, to June 30, 2023, was obtained from the [Maven Analytics](https://mavenanalytics.io/data-playground?pageSize=all)(Coffee Shop Sales) site and can be accessed from the `Dataset.csv` file of this Repository.
 
-The main objective of this project is to analyse retail sales data to derive **KPI measures and actionable insights** that will enhance the performance of the coffee shop.
+The main **objective** of this project is to analyse retail sales data to derive **KPI measures and actionable insights** that will enhance the performance of the coffee shop.
 
 
 ### Dataset Description
