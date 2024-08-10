@@ -32,7 +32,7 @@ Using the Excel Power Query Editor, the raw data was cleaned and transformed as 
 
 
 ### Data Modelling and Analysis
-After cleaning the data, it was loaded into the Excel data model and worksheet. Various pivot tables and Key Performance Indicator (KPI) measures were created using Power Pivot tools and the data model. These pivot tables and KPI measures were then used to develop an interactive dashboard to gain insights based on the following problem statements:
+After cleaning the data, it was loaded into the Excel data model and worksheet. Various pivot tables and Key Performance Indicator (KPI) measures were created using Power Pivot tools and the data model. These pivot tables and KPI measures were then used to develop an interactive dashboard to gain insights based on the following **problem statements**:
 - How do sales vary by day of the week and hour of the day?
 - Are there any peak times for sales activity?
 - What is the total sales revenue for each month?
