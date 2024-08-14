@@ -63,7 +63,7 @@ The interactive dashboard is equipped with the following elements to facilitate 
 
 
 ### Final Snapshot of the Dashboard
-![Dashboard_Snapshot](https://github.com/bhavdipzala/Coffee_Shop_Sales_Analysis_Excel_Dashboard/blob/main/dashboard_snapshot.jpg)
+![Dashboard_Snapshot](dashboard_snapshot.jpg)
 
 
 ### Insights and Impact
