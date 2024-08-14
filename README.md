@@ -63,7 +63,7 @@ The interactive dashboard is equipped with the following elements to facilitate 
 
 
 ### Final Snapshot of the Dashboard
-![Dashboard_Snapshot](dashboard_snapshot.jpg)
+![Dashboard_Snapshot](Dashboard_Snapshot.jpg)
 
 
 ### Insights and Impact
