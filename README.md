@@ -1,9 +1,9 @@
-# Coffee Shop Sales Analysis Excel Dashboard
+# Brew Haven: The Café - Sales Analysis
 
 ### Overview and Objective
-This project involves developing an interactive Excel dashboard aimed at analyzing and extracting valuable insights from a comprehensive dataset containing over 145,000 coffee shop sales transactions. The dataset, spanning from January 1, 2023, to June 30, 2023, was sourced from the [Maven Analytics Data Playground](https://mavenanalytics.io/data-playground?pageSize=all) and is included in the `Dataset.csv` file within this repository.
+This project involves developing an interactive Excel dashboard aimed at analyzing and extracting valuable insights from a comprehensive dataset containing over 145,000 sales transactions from **Brew Haven: The Café**. The dataset, spanning from January 1, 2023, to June 30, 2023, was sourced from the [Maven Analytics Data Playground](https://mavenanalytics.io/data-playground?pageSize=all) and is included in the `Dataset.csv` file within this repository.
 
-The primary objective of this project is to utilize advanced Excel features to conduct a thorough analysis of café sales data, visualising the analysis, thereby deriving actionable insights and key performance indicators (KPIs) that can significantly enhance the operational efficiency and revenue performance of the café.
+The primary objective of this project is to utilize advanced Excel features to conduct a thorough analysis of café sales data, visualise the analysis, and derive actionable insights and key performance indicators (KPIs) that can significantly enhance the operational efficiency and revenue performance of **Brew Haven: The Café**.
 
 
 ### Dataset Description
@@ -25,7 +25,7 @@ The raw dataset includes the following columns:
 To ensure data accuracy and facilitate analysis, the raw data was cleaned and transformed using Power Query Editor. Key steps included:
 - Extracting and categorising product sizes from the `product_detail` column to enhance product-level analysis.
 - Trimming and standardising the `product_detail` column for consistency across records.
-- Creating a `total order amount` column using conditional columns to calculate the monetary value of each transaction.
+- Creating a `total order amount` column using conditional columns tool to calculate the monetary value of each transaction.
 - Extracting and organizing time-based data by generating new columns for month names, day names, day numbers, and month numbers, improving the sorting and analysis of sales trends.
 - Correcting and standardizing date and time formats to ensure accuracy in reporting and analysis.
 
@@ -68,4 +68,4 @@ The interactive dashboard is equipped with the following elements to facilitate 
 
 ### Insights and Impact
 
-This Excel dashboard enables stakeholders to effectively visualise and analyse sales data, uncover critical sales trends, identify key performance indicators, and make informed decisions. The detailed, actionable insights derived from this analysis have the potential to drive a 30% increase in sales revenue through optimized product offerings, staffing, and marketing strategies, ultimately enhancing the overall business performance.
+This Excel dashboard enables stakeholders to effectively visualise and analyse sales data, uncover critical sales trends, identify key performance indicators, and make informed decisions. The detailed, actionable insights derived from this analysis have the potential to drive a 30% increase in sales revenue through optimized product offerings, staffing, and marketing strategies, ultimately enhancing the overall business performance of The Café.
