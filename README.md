@@ -1,4 +1,4 @@
-# Brew Haven: The Café - Sales Analysis
+# Brew Haven: The Café - Sales Analysis Dashboard
 
 ### Overview and Objective
 This project involves developing an interactive Excel dashboard aimed at analyzing and extracting valuable insights from a comprehensive dataset containing over 145,000 sales transactions from **Brew Haven: The Café**. The dataset, spanning from January 1, 2023, to June 30, 2023, was sourced from the [Maven Analytics Data Playground](https://mavenanalytics.io/data-playground?pageSize=all) and is included in the `Dataset.csv` file within this repository.
