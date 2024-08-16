@@ -62,10 +62,10 @@ The interactive dashboard is equipped with the following elements to facilitate 
   - Month name (for filtering data by specific months)
 
 
-### Final Snapshot of the Dashboard
+### Final Snapshot of the [Dashboard](Analysis_Dashboard.xlsx)
 ![Dashboard_Snapshot](Dashboard_Snapshot.jpg)
 
 
-### Insights and Impact
+### [Insights](Key_Insights_Derived.md) and Impact
 
 This Excel dashboard enables stakeholders to effectively visualise and analyse sales data, uncover critical sales trends, identify key performance indicators, and make informed decisions. The detailed, actionable insights derived from this analysis have the potential to drive a 30% increase in sales revenue through optimized product offerings, staffing, and marketing strategies, ultimately enhancing the overall business performance of The Café.
