@@ -89,7 +89,7 @@ After completing the SQL analysis, the normalised dataset was brought into Power
 ## Dashboard Overview & Features
 
 ### **Final Dashboard Snapshot**
-[Dashboard Snapshot](Dashboard_Snapshot.jpg)
+![Dashboard Snapshot](Dashboard_snapshot.png)
 
 
 ### **Components & Features**
@@ -98,25 +98,13 @@ The dashboard is organised into multiple panels, each offering targeted insights
 
 #### **KPI Panel**
 
-* **Total Orders**
-* **Total Sales Revenue**
-* **Average Order Value**
-* **Average Quantity Ordered**
-* Below each KPI:
-
-  * **Month-over-Month % change** (with color-coded indicators)
-  * **Absolute value difference**
+* Include **Total Orders**, **Total Sales Revenue**, **Average Order Value**, and **Average Quantity Ordered**
+* Below each KPI: **Month-over-Month % change** (with color-coded indicators) and **Absolute value difference**
 
 #### **Filters / Slicers Panel**
 
-* Select **Year**
-* Select **Month(s)**
-* Select **Store(s)**
-* **Metric Selector**: Choose to analyse the dashboard by:
-
-  * `Sales Revenue`, `Orders`, or `Quantity Sold`
-
-(Any combination of year, month, store, and metric can be selected, and all charts dynamically update based on this selection.)
+* Include **Select Year**, **Select Month(s)**, **Select Store(s)**, **Metric Selector** (Choose to analyse the dashboard by `Sales Revenue`, `Orders`, or `Quantity Sold`)
+  * (Any combination of year, month, store, and metric can be selected, and all charts dynamically update based on this selection.)
 
 #### **Time-Based Analysis & Trends**
 
