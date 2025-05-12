@@ -6,34 +6,34 @@ The dataset consists of **149,116 retail transactions** recorded over a **six-mo
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 
 The primary objective of this project is to analyse the coffee shop's transactional sales data to uncover meaningful insights that can help improve business performance across all store locations. By leveraging data-driven analysis, the aim is to identify key trends, patterns, and opportunities that can inform strategic decisions related to operations, marketing, and product offerings.
 
 Key business questions addressed in this project include:
 
-* 📅 **How do sales vary by day of the week and hour of the day?**
+* **How do sales vary by day of the week and hour of the day?**
   Are there specific days or time slots that generate peak sales activity?
 
-* ⏰ **Are there identifiable peak sales hours across locations?**
-  Can staff scheduling and promotions be optimized based on these trends?
+* **Are there identifiable peak sales hours across locations?**
+  Can staff scheduling and promotions be optimised based on these trends?
 
-* 📈 **What is the total sales revenue for each month?**
+* **What is the total sales revenue for each month?**
   Are there any noticeable month-on-month growth trends?
 
-* 🌍 **How do sales perform across different store locations?**
+* **How do sales perform across different store locations?**
   Are there differences in sales patterns between outlets?
 
-* 🛍️ **Which products are the best sellers in terms of quantity and revenue?**
+* **Which products are the best sellers in terms of quantity and revenue?**
   Can we identify top-performing products that drive most of the sales?
 
-* 📦 **How do product categories and sizes influence sales performance?**
+* **How do product categories and sizes influence sales performance?**
   Are certain product types or sizes more profitable than others?
 
 ---
 
 
-## 📊 About the Dataset
+## About the Dataset
 
 The dataset used in this project was sourced from [Kaggle: Coffee Shop Sales](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales), and contains detailed sales transaction records over a six-month period from **January 1, 2023, to June 30, 2023**.
 
@@ -53,16 +53,16 @@ It consists of **149,116 rows**, each representing a single sales transaction, c
 | `product_type`     | Type of product                                          |
 | `product_detail`   | Description of the product                               |
 
-While the original dataset is flat and denormalised, it offers rich information about customer purchasing behavior, store performance, and product-level trends. Before analysis, this data was imported into **MySQL**, where it underwent extensive cleaning, transformation, and normalization into a relational schema to ensure data integrity and facilitate efficient querying.
+While the original dataset is flat and denormalised, it offers rich information about customer purchasing behaviour, store performance, and product-level trends. Before analysis, this data was imported into **MySQL**, where it underwent extensive cleaning, transformation, and normalisation into a relational schema to ensure data integrity and facilitate efficient querying.
 
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 The project is divided into a two-part analytical process: **ETL & Exploratory Data Analysis using SQL**, followed by **data modelling and interactive dashboard development in Power BI**.
 
-### 🗃️ SQL – ETL Process & Exploratory Data Analysis
+### SQL – ETL Process & Exploratory Data Analysis
 
 The raw dataset(.csv file) was imported into a MySQL database using the `LOAD DATA INFILE` command into a staging table named `raw_dataset`. Before exploratory Data analysis, several data **cleaning and transformation** steps were applied:
 
@@ -75,7 +75,7 @@ The raw dataset(.csv file) was imported into a MySQL database using the `LOAD DA
 
 Once cleaned and transformed, detailed SQL Exploratory Data Analysis was performed to understand key trends and patterns. In doing so, `CTEs`, `JOINs`, `GROUP BY`, date functions, and aggregation techniques were used to analyse sales across various dimensions such as category, time, location etc.
 
-### 📈 Power BI – Data Modelling & Dashboard Development
+### Power BI – Data Modelling & Dashboard Development
 
 After completing the SQL analysis, the normalised dataset was brought into Power BI using MySQL connector.
 * In Power Query Editor, imported tables were renamed to `fact_transactions`, `dim_products`, and `dim_stores`.
@@ -86,16 +86,17 @@ After completing the SQL analysis, the normalised dataset was brought into Power
 
 ---
 
-## 📊 Dashboard Overview & Features
+## Dashboard Overview & Features
 
-### 🖼️ **Final Dashboard Snapshot**
+### **Final Dashboard Snapshot**
+[Dashboard Snapshot](images/dashboard.png)
 
 
-### 🧩 **Components & Features**
+### **Components & Features**
 
 The dashboard is organised into multiple panels, each offering targeted insights:
 
-#### 🧮 **KPI Panel**
+#### **KPI Panel**
 
 * **Total Orders**
 * **Total Sales Revenue**
@@ -106,7 +107,7 @@ The dashboard is organised into multiple panels, each offering targeted insights
   * **Month-over-Month % change** (with color-coded indicators)
   * **Absolute value difference**
 
-#### 🎛️ **Filters / Slicers Panel**
+#### **Filters / Slicers Panel**
 
 * Select **Year**
 * Select **Month(s)**
@@ -117,7 +118,7 @@ The dashboard is organised into multiple panels, each offering targeted insights
 
 (Any combination of year, month, store, and metric can be selected, and all charts dynamically update based on this selection.)
 
-#### 📆 **Time-Based Analysis & Trends**
+#### **Time-Based Analysis & Trends**
 
 1. **Sales by Day of the Month**
 
@@ -135,7 +136,7 @@ The dashboard is organised into multiple panels, each offering targeted insights
 
    * Doughnut chart showing distribution
 
-#### ☕ **Product Performance & Revenue Drivers**
+#### **Product Performance & Revenue Drivers**
 
 1. **Best to Least Performing Products**
 
@@ -147,7 +148,7 @@ The dashboard is organised into multiple panels, each offering targeted insights
 
    * Pie chart showing size-wise contribution
 
-#### 🏪 **Store-Level Comparison**
+#### **Store-Level Comparison**
 
 * **Sales Across Store Locations**
 
@@ -157,16 +158,16 @@ The dashboard is organised into multiple panels, each offering targeted insights
 ---
 
 
-## 🔍 Key Insights & Findings
+## Key Insights & Findings
 
-The following insights are derived from six months of sales data (January–June 2023). The analysis was performed using SQL and visualized in Power BI, with metrics primarily focused on **Total Sales Revenue**.
+The following insights are derived from six months of sales data (January–June 2023). The analysis was performed using SQL and visualised in Power BI, with metrics primarily focused on **Total Sales Revenue**.
 
 > *Note: Insights are based on aggregated data. Month-by-month trends or promotional campaigns may introduce variability not reflected in the high-level findings.*
 
 
 ### 🕒 **Time-Based Sales Trends**
 
-#### 1. ⏰ **Peak Sales Hours Across Store Locations**
+#### 1. **Peak Sales Hours Across Store Locations**
 
 * All three stores experience **peak sales between 7 AM and 10 AM**, confirming strong morning demand.
 * After 10 AM, a **significant decline in sales** occurs, stabilizing until 5 PM:
@@ -174,7 +175,7 @@ The following insights are derived from six months of sales data (January–June
   * **Hell's Kitchen** and **Lower Manhattan**: Continuous drop after 5 PM.
   * **Astoria**: Maintains **steady sales** into the evening, unlike other locations.
 
-#### 2. 📅 **Weekday Sales Patterns**
+#### 2. **Weekday Sales Patterns**
 
 * **Hell's Kitchen**:
 
@@ -189,59 +190,59 @@ The following insights are derived from six months of sales data (January–June
   * Lowest on **Tuesday and Saturday**.
 * Aggregated trend: **Monday** is the **highest-performing day**, **Saturday** the lowest across all locations.
 
-#### 3. 📈 **Monthly Revenue Growth**
+#### 3. **Monthly Revenue Growth**
 
 * Revenue showed **consistent upward momentum** from **January (\$82K)** to **June (\$166K)**.
 * Sales effectively **doubled over the six-month period**, suggesting growing popularity or increased footfall.
 
-#### 4. 📊 **Weekdays vs Weekends**
+#### 4. **Weekdays vs Weekends**
 
 * **72%** of sales come from **weekdays**, while **weekends contribute only 28%**.
 * Weekdays are clearly the business's revenue core.
 
 
-### ☕ **Product Performance & Revenue Drivers**
+### **Product Performance & Revenue Drivers**
 
-* **Top-Selling Products** which consistently drive high revenue includ Ethiopia, Organic Grown Coffee, Jamaican Coffee Latte, Brazilian.
+* **Top-Selling Products** which consistently drive high revenue include Ethiopia, Organic Grown Coffee, Jamaican Coffee Latte, and Brazilian.
 
-* **Coffee** is the leading product category, followed by Tea, Bakery, Drinking Chocolate, Coffee Beans.
+* **Coffee** is the leading product category, followed by Tea, Bakery, Drinking Chocolate, and Coffee Beans.
 
 * **Large** size generates the most of the revenue, closely followed by **Regular**. **Small** size contributes only a minimal share.
 
 
-### 🏬 **Store-Level Sales Distribution**
+### **Store-Level Sales Distribution**
 
-* All three stores contribute almost **equally**, each accounting for **\~32–33%** of total sales, Indicating balanced performance and no outlier in underperformance or dominance.
+* All three stores contribute almost **equally**, each accounting for **\~32–33%** of total sales, indicating balanced performance and no outlier in underperformance or dominance.
 
 
 
 ---
 
 
-## ✅ Recommendations
+## Recommendations
 
 
-#### 1. 🕑 Optimize Non-Peak Hour Sales
+#### 1. Optimise Non-Peak Hour Sales
 
 * **Problem**: Significant sales drop after morning hours (post-10 AM).
 * **Recommendation**: Introduce time-limited offers, lunch-hour combos, or targeted campaigns between **11 AM and 5 PM**, especially at **Hell’s Kitchen** and **Lower Manhattan**.
 
-#### 2. 📆 Boost Weekend Traffic
+#### 2. Boost Weekend Traffic
 
 * **Problem**: **Saturdays** show the lowest sales across all stores.
 * **Recommendation**: Launch **weekend specials**, or small event tie-ins (e.g., music, book clubs) to improve footfall.
 
-#### 3. 📦 Promote Best-Selling Items
+#### 3. Promote Best-Selling Items
 
 * **Opportunity**: Products like **Ethiopia** and **Jamaican Coffee Latte** consistently drive revenue.
-* **Recommendation**: Highlight these products by digital promotions to further maximize their impact.
+* **Recommendation**: Highlight these products by digital promotions to further maximise their impact.
 
-#### 4. 📐 Upsell Larger Sizes
+#### 4. Upsell Larger Sizes
 
 * **Observation**: **Large-sized products** generate the highest revenue.
-* **Recommendation**: Train staff to promote upsizing, or introduce bundled discounts on larger sizes.
+* **Recommendation**: Train staff to promote upsizing or introduce bundled discounts on larger sizes.
 
-#### 5. 🧭 Maintain Balanced Store Operations
+#### 5. Maintain Balanced Store Operations
 
 * **Insight**: All store locations contribute nearly equally to total revenue.
 * **Recommendation**: Maintain consistent operational standards and customer experience across locations to sustain this balance.
