@@ -16,19 +16,19 @@ Key business questions addressed in this project include:
   * Are there specific days or time slots that generate peak sales activity?
 
 * **Are there identifiable peak sales hours across locations?**
-  Can staff scheduling and promotions be optimised based on these trends?
+  * Can staff scheduling and promotions be optimised based on these trends?
 
 * **What is the total sales revenue for each month?**
-  Are there any noticeable month-on-month growth trends?
+  * Are there any noticeable month-on-month growth trends?
 
 * **How do sales perform across different store locations?**
-  Are there differences in sales patterns between outlets?
+  * Are there differences in sales patterns between outlets?
 
 * **Which products are the best sellers in terms of quantity and revenue?**
-  Can we identify top-performing products that drive most of the sales?
+  * Can we identify top-performing products that drive most of the sales?
 
 * **How do product categories and sizes influence sales performance?**
-  Are certain product types or sizes more profitable than others?
+  * Are certain product types or sizes more profitable than others?
 
 ---
 
