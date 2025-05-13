@@ -5,7 +5,7 @@ The following insights are derived from six months of sales data (January–June
 > *Note: Insights are based on aggregated data. Month-by-month trends or promotional campaigns may introduce variability not reflected in the high-level findings.*
 
 
-### 🕒 **Time-Based Sales Trends**
+### **Time-Based Sales Trends**
 
 #### 1. **Peak Sales Hours Across Store Locations**
 
