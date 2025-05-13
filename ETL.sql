@@ -108,3 +108,6 @@ SET product_detail =
             REPLACE(product_detail, ' Lg', ''),
         ' Rg', ''),
     ' Sm', '');
+
+
+
