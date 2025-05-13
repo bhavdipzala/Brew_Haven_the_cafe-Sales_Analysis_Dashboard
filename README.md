@@ -151,11 +151,11 @@ The dashboard is organised into multiple panels, each offering targeted insights
 
 ```
 Brew_Haven_The_Cafe_Sales_Analysis/
-├── README.md                          // Project documentation
-├── Raw_Dataset.csv                   // Original raw dataset (sourced from Kaggle)
-├── Brew_Haven_the_Cafe.pbix         // Power BI dashboard file
-├── Dashboard_Snapshot.png           // Image of the final Power BI dashboard
-├── ETL.sql                           // SQL file for ETL: extraction, transformation & normalization
-├── EDA.sql                           // SQL file for Exploratory Data Analysis
-├── Findings and Recommendations.md  // Insights, findings, and business recommendations
+├── README.md                              // Project documentation
+├── Raw_Dataset.csv                        // Original raw dataset (sourced from Kaggle)
+├── Brew_Haven_the_Cafe.pbix               // Power BI dashboard file
+├── Dashboard_Snapshot.png                 // Image of the final Power BI dashboard
+├── ETL.sql                                // SQL file for ETL: extraction, transformation & normalization
+├── EDA.sql                                // SQL file for Exploratory Data Analysis
+├── Findings and Recommendations.md        // Insights, findings, and business recommendations
 ```
