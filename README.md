@@ -53,7 +53,6 @@ It consists of **149,116 rows**, each representing a single sales transaction, c
 | `product_type`     | Type of product                                          |
 | `product_detail`   | Description of the product                               |
 
-While the original dataset is flat and denormalised, it offers rich information about customer purchasing behaviour, store performance, and product-level trends. Before analysis, this data was imported into **MySQL**, where it underwent extensive cleaning, transformation, and normalisation into a relational schema to ensure data integrity and facilitate efficient querying.
 
 
 ---
