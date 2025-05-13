@@ -13,7 +13,7 @@ The primary objective of this project is to analyse the coffee shop's transactio
 Key business questions addressed in this project include:
 
 * **How do sales vary by day of the week and hour of the day?**
-     Are there specific days or time slots that generate peak sales activity?
+  * Are there specific days or time slots that generate peak sales activity?
 
 * **Are there identifiable peak sales hours across locations?**
   Can staff scheduling and promotions be optimised based on these trends?
