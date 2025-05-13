@@ -89,7 +89,7 @@ After completing the SQL analysis, the normalised dataset was brought into Power
 ## Dashboard Overview & Features
 
 ### **Final Dashboard Snapshot**
-![Dashboard Snapshot](Dashboard_snapshot.png)
+![Dashboard Snapshot](Dashboard_Snapshot.png)
 
 
 ### **Components & Features**
