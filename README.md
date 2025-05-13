@@ -35,7 +35,7 @@ Key business questions addressed in this project include:
 
 ## About the Dataset
 
-The dataset used in this project was sourced from [Kaggle: Coffee Shop Sales](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales), and contains detailed sales transaction records over a six-month period from **January 1, 2023, to June 30, 2023**.
+The dataset used in this project was sourced from ![Kaggle: Coffee Shop Sales](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales), and contains detailed sales transaction records over a six-month period from **January 1, 2023, to June 30, 2023**.
 
 It consists of **149,116 rows**, each representing a single sales transaction, captured across **three store locations**. The dataset is in a **single-table format**, with the following fields:
 
